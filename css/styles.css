@@ -1,4 +1,4 @@
-h1 {
+h1.title {
   color: blue;
   text-align: center;
 }
@@ -8,11 +8,17 @@ h2 {
   text-align: center;
 }
 
-p {
+p.info {
   font-family: sans-serif;
+  font-style: italic;
+  color: red;
 }
 
 ul {
   font-size: 20px;
   line-height: 30px;
+}
+.list {
+  font-size: 25px;
+
 }
